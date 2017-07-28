@@ -1,11 +1,11 @@
 .primary-button {
   border: 0;
   padding: 10px;
-  background: blue;
+  background: black;
   color: white;
 }
 
-.primary-button[data-theme="dark"] {
-  background: #eee;
-  color: blue;
+.primary-button[data-theme="deactive"] {
+  background: gray;
+  color: white;
 }

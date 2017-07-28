@@ -1,11 +1,44 @@
 {
-  "name": "fractal-demo",
+  "name": "fm-fractal-demo",
   "version": "0.1.0",
+  "description": "Fannie Mae Component Library.",
   "scripts": {
-    "fractal": "node-sass sass/style.scss public/css/style.css -w & ./node_modules/.bin/fractal start --sync"
+    "fractal": "node-sass sass/style.scss public/css/style.css -w & ./node_modules/.bin/fractal start --sync",
+    "start": "fractal start --sync",
+    "build": "fractal build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CassieShumway/fm-fractal"
   },
   "dependencies": {
     "@frctl/fractal": "^1.0.0",
-    "node-sass": "^3.8.0"
+    "@frctl/nunjucks": "^1.0.3",
+    "connect-livereload": "^0.6.0",
+    "del": "^2.2.2",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^3.1.0",
+    "node-sass": "^3.8.0",
+    "nunjucks": "^3.0.1",
+    "run-sequence": "^1.2.2",
+    "theo": "^5.0.0"
+  },
+  "devDependencies": {
+    "backstopjs": "^2.3.7",
+    "browser-sync": "^2.7.10",
+    "glob": "^7.1.1",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-replace-path": "^0.4.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-sass-glob": "^1.0.5",
+    "gulp-serve": "^1.2.0",
+    "gulp-theo": "^1.0.0-alpha.4",
+    "gulp-util": "^3.0.7",
+    "lerna": "^2.0.0-rc.5"
   }
 }

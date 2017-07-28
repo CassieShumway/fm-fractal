@@ -1,10 +1,28 @@
+global:
+  category: 'web'
+  type: 'borders'
+imports:
+  - ../tokens/_aliases.yml
+
 title: Primary Button
+default: "primary"
 context:
-    text: Click Me
+    text: Primary
+    type: 'button'
+    description: 'primary buttons can only be used for awesomeness. cdx has super powers'
 variants:
-  - name: Download
-    context:
-      text: Download Now
-  - name: Install
-    context:
-      text: Install Now
+  - name: Deactive 
+    context: 
+      text: deactive state
+      theme: deactive
+    props:
+      # BORDER RADIUS
+      fds-border-radius-btn:
+        value: '{!fds-border-radius}'   
+
+
+
+
+
+
+
