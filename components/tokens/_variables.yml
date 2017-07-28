@@ -1,0 +1,12 @@
+# tokens/_variables.yml
+global:
+  category: 'web'
+  type: 'all'
+imports:
+  - _aliases.yml
+  - _colors.yml
+  - _font.yml
+  - _borders.yml
+  - _sizes.yml
+  - ../components/buttons/primary-button.config.yml
+

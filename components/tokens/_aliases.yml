@@ -1,0 +1,65 @@
+#tokens/_aliases.yml
+aliases:
+# COLORS-PRIMARY
+  fds-color-navy-50: '#000F2B'
+  fds-color-white: '#FFFFFF'
+  fds-color-grey-10: '#F7F7F8'
+
+# COLORS-SECONDARY
+  fds-color-blue-50: '#00ACDC'
+  fds-color-grey-50: '#D9D7DC'
+  fds-color-grey-60: '#ADACB0'
+  fds-color-grey-80: '#565658'
+
+# COLORS-TERTIARY
+  fds-color-red-50: '#EA4B50'
+  fds-color-green-50: '#2CBC85'
+  fds-color-yellow-50: '#F7C32B'
+  fds-color-orange-50: '#F09125'
+  fds-color-purple-50: '#8D6EB2'
+
+# FONT FAMILIES
+  fds-font-family-sans-serif: '"Univers lt Pro", Arial, sans-serif'
+  fds-font-family-serif: '"Glypha lt Pro", Times New Roman, serif'
+
+# FONT SIZES
+  fds-font-size-xxs: '13px'
+  fds-font-size-xs: '14px'
+  fds-font-size-s: '15px'
+  fds-font-size-m: '16px'
+  fds-font-size-l: '20px'
+  fds-font-size-xl: '24px'
+  fds-font-size-xxl: '36px'
+
+# FONT WEIGHTS
+  fds-font-weight-light: '300'
+  fds-font-weight-roman: '400'
+  fds-font-weight-bold: '700'
+
+# FONT LINE HEIGHTS
+  fds-font-line-height-s: '16px'
+  fds-font-line-height-m: '24px'
+  fds-font-line-height-l: '40px'
+
+# SPACING
+  fds-spacing-xxs: '4px'
+  fds-spacing-xs: '8px'
+  fds-spacing-s: '12px'
+  fds-spacing-m: '16px'
+  fds-spacing-l: '24px'
+  fds-spacing-xl: '32px'
+  fds-spacing-xxl: '40px'
+  fds-spacing-xxxl: '48px'
+
+# BORDER WIDTH
+  fds-border-width-s: '1px'
+  fds-border-width-m: '1.5px'
+  fds-border-width-l: '2px'
+
+# BORDER RADIUS
+  fds-border-radius: '3px'
+
+# SIZES
+  fds-size-16: '16px'
+  fds-size-40: '40px'
+  fds-size-80: '80px'

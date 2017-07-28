@@ -1,0 +1,11 @@
+title: Secondary Button
+context:
+    text: Click Me
+    type: 'button'
+variants:
+  - name: Download
+    context:
+      text: Download Now
+  - name: Install
+    context:
+      text: Install Now

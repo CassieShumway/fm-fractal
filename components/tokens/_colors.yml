@@ -1,0 +1,32 @@
+# tokens/_colors.yml
+global:
+  category: 'web'
+  type: 'colors'
+imports:
+  - _aliases.yml
+props:
+  # BACKGROUND - COLORS
+  fds-bg-color-body:
+    value: '{!fds-color-white}'
+  fds-bg-color-body-alt:
+    value: '{!fds-color-grey-10}'
+  fds-bg-color-nav:
+    value: '{!fds-color-navy-50}'
+  fds-bg-color-btn-primary:
+    value: '{!fds-color-blue-50}'
+  fds-bg-color-btn-secondary:
+    value: '{!fds-color-white}'
+  fds-bg-color-btn-tertiary:
+    value: 'rgba(255,255,255,0.0)'
+
+  # FONT - COLORS
+  fds-font-color-body:
+    value: '{!fds-color-navy-50}'
+  fds-font-color-body-alt:
+    value: '{!fds-color-grey-80}'
+  fds-font-color-btn-primary:
+    value: '{!fds-color-white}'
+  fds-font-color-btn-secondary:
+    value: '{!fds-color-blue-50}'
+  fds-font-color-btn-tertiary:
+    value: '{!fds-color-blue-50}'

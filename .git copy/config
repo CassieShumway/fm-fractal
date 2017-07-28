@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[branch "gh-pages"]
+[remote "origin"]
+	url = https://github.com/CassieShumway/fm-fractal.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "gh-pages"]
+	remote = origin
+	merge = refs/heads/gh-pages

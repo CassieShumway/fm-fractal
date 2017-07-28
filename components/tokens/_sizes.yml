@@ -1,0 +1,14 @@
+# tokens/_sizes.yml
+global:
+  category: 'web'
+  type: 'sizes'
+imports:
+  - _aliases.yml
+props:
+  # SIZING
+  fds-height-btn:
+    value: '{!fds-size-40}'
+
+  # PADDING
+  fds-padding-btn:
+    value: '0px {!fds-spacing-l}'

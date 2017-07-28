@@ -1,0 +1,12 @@
+global:
+  category: 'web'
+  type: 'search'
+imports:
+  - ../tokens/_aliases.yml
+
+title: Search box
+default: "primary"
+context:
+    text: search
+    type: 'component'
+    description: 'To assist users in finding a specific item'

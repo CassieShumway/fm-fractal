@@ -1,0 +1,20 @@
+  # tokens/_font.yml
+global:
+  category: 'web'
+  type: 'font'
+imports:
+  - _aliases.yml
+props:
+  # FONT-FAMILY
+  fds-font-family-btn:
+    value: '{!fds-font-family-sans-serif}'
+  fds-font-family-body:
+    value: '{!fds-font-family-sans-serif}'
+
+  # FONT SIZES
+  fds-font-size-body:
+    value: '{!fds-font-size-s}'
+
+  # FONT LINE HEIGHT
+  fds-line-height-body:
+    value: '{!fds-font-line-height-m}'
